@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-18 16:27:39.177656",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "topic__details_section",
+  "topic_name",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "topic__details_section",
+   "fieldtype": "Section Break",
+   "label": "Topic _Details"
+  },
+  {
+   "fieldname": "topic_name",
+   "fieldtype": "Select",
+   "label": "Topic Name",
+   "options": "Artificial Intelligence and Machine Learning\nData Structures and Algorithms\nCybersecurity and Cryptography\nInternet of Things (IoT) and Embedded Systems\nCloud Computing and Virtualization\nComputer Networks and Communications\nSoftware Engineering and Development\nDatabase Systems and Management\nOperating Systems\nHuman-Computer Interaction (HCI) and User Experience (UX) Design\nComputer Graphics and Visualization\nNatural Language Processing (NLP) and Computational Linguistics\nBig Data Analytics and Data Mining\nMobile Application Development\nBioinformatics and Computational Biology\nQuantum Computing\nRobotics and Autonomous Systems\nGame Development and Design\nParallel and Distributed Computing\nAugmented Reality (AR) and Virtual Reality (VR) Applications"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-18 16:39:25.995957",
+ "modified_by": "Administrator",
+ "module": "First_module",
+ "name": "Topic",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

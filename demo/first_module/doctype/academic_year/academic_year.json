@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{##}",
+ "creation": "2024-03-19 14:43:48.766849",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "year_section",
+  "select"
+ ],
+ "fields": [
+  {
+   "fieldname": "year_section",
+   "fieldtype": "Section Break",
+   "label": "Year"
+  },
+  {
+   "fieldname": "select",
+   "fieldtype": "Select",
+   "label": "Academic year",
+   "options": "1998 - 1999\n1999-2003\n2002 - 2005\n2005 - 2006\n2006-2009\n2010-2014\n2022-2024"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-19 16:50:38.436691",
+ "modified_by": "Administrator",
+ "module": "First_module",
+ "name": "Academic Year",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
