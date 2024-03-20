@@ -10,6 +10,7 @@
                 createStudentUser(frm);
             });
         },
+        git 
         before_save: function(frm) {
             // Concatenate full name before saving
             frm.doc.full_name = frm.doc.first_name + ' ' + frm.doc.middle_name + ' ' + frm.doc.last_name;
