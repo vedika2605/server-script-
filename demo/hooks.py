@@ -12,6 +12,13 @@ app_license = "mit"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/demo/css/demo.css"
 # app_include_js = "/assets/demo/js/demo.js"
+doctype_js = {
+    "Purchase Order":"public/js/purchase_order.js"
+}
+# doctype_python = {
+#     "Purchase Order":"Customization/purchase_order.py"
+# }
+
 
 # include js, css files in header of web template
 # web_include_css = "/assets/demo/css/demo.css"
@@ -29,7 +36,8 @@ app_license = "mit"
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
-# doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
+doctype_list_js ={"Customer":"public/js/Customer.js"}
+# doctype_list_js ={"Purchase Invoice":"public/js/Purchase.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
@@ -162,7 +170,7 @@ app_license = "mit"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "demo.event.get_events"
 # }
-#
+
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
